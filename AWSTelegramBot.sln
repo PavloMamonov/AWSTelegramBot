@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{973F4CE6-A902-484C-A3D1-8FA0D7CFB3BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSTelegramBot", "src\AWSTelegramBot\AWSTelegramBot.csproj", "{C883DE78-B928-44A5-A913-DB6DA0AB2DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{4606D1EA-6B7F-49D7-91AA-B176AB5AB63E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C883DE78-B928-44A5-A913-DB6DA0AB2DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C883DE78-B928-44A5-A913-DB6DA0AB2DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C883DE78-B928-44A5-A913-DB6DA0AB2DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C883DE78-B928-44A5-A913-DB6DA0AB2DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4606D1EA-6B7F-49D7-91AA-B176AB5AB63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4606D1EA-6B7F-49D7-91AA-B176AB5AB63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4606D1EA-6B7F-49D7-91AA-B176AB5AB63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4606D1EA-6B7F-49D7-91AA-B176AB5AB63E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C883DE78-B928-44A5-A913-DB6DA0AB2DA9} = {973F4CE6-A902-484C-A3D1-8FA0D7CFB3BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0BD9663-CA22-4025-83C5-20CE32CDDAA3}
+	EndGlobalSection
+EndGlobal
